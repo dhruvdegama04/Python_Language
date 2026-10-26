@@ -1,0 +1,9 @@
+"""3.Build a function reverse_message(message) that reverses any string passed to it, 
+similar to how WhatsApp displays reversed text stickers.<br><br><em><strong>Constraint:
+</strong> Do not use Python's built-in reversed() or [::-1] slicing shortcut.</em>"""
+
+def reverse_message(message):
+    reversed_str = ""
+    for char in message:
+        reversed_str = char + reversed_str
+    return reversed_str
